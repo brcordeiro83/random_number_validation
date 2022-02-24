@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 
 # 2. Declaração de Variáveis
 tamanho_imagem = 255
-numero_frame: int = 24
+numero_frame = 24
 
 
 # 3. Definindo as funções
