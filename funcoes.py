@@ -1,8 +1,10 @@
 # 1. Importando as bibliotecas
+
 import imageio
 import numpy as np
 import seaborn as sns
 from matplotlib import pyplot as plt
+
 
 # 2. Definindo as funções
 def gerar_imagens_aleatorias(tamanho_imagem, nome_arquivo, numero_frame):
@@ -36,5 +38,5 @@ def gerar_gif_sns(numero_frame, nome_arquivo):
             image = imageio.imread(arquivos_gerado)
             writer.append_data(image)
 
-#if(__name__ == '__main__'):
+# if(__name__ == '__main__'):
 #    gerador_v1()
